@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App > textarea {
+  padding: 5px;
+  resize: none;
+  height: 200px;
+  width: 40%;
+}
+
+.App > div {
+  border: 1px solid rgb(48, 48, 48);
+  height: 200px;
+  width: 40%;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  overflow-y: scroll;
+}
+
+.App {
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

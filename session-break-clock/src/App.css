@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(82, 141, 95);
+  min-height: 30vh;
+  min-width: 50vw;
+  display: flex;
+  border: 3px solid #282c34;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  color: #282c34;
+}
+.time {
+  padding: 10px;
+  width: 20vw;
+}
+
+.break {
+  padding: 10px;
+  width: 20vw;
+}
+
+.session {
+  padding: 10px;
+  width: 20vw;
+}
+
+.button {
+  border: 0;
+  cursor: pointer;
+}
+
+.far {
+  font-size: 3em;
+  color: whitesmoke;
+  background-color: rgb(82, 141, 95);
+}
+
+.far:hover {
+  color: #282c34;
+}
+
+.tb_start {
+  border-radius: 5px;
+  border: 0.3em solid whitesmoke;
+  margin: 0.13em;
+}
+
+.fas {
+  font-size: 1.4em;
+  color: whitesmoke;
+  background-color: rgb(82, 141, 95);
+  padding: 0.25em;
+}
+.tb_start:hover {
+  border-color: #282c34;
+}
+
+.fas:hover {
+  color: #282c34;
+}
+
+#break-label {
+  font-size: 25px;
+}
+
+#time-label {
+  font-size: 25px;
+}
+
+#session-label {
+  font-size: 25px;
+}

@@ -1,0 +1,12 @@
+# dependencies
+calculator-app/node_modules
+drum-machine/node_modules
+markdown-previewer/node_modules
+quote-app/node_modules
+session-break-clock/node_modules
+
+# production
+/build
+
+#env
+.env

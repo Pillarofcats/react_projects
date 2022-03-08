@@ -1,0 +1,14 @@
+$paragraph-bg: rgb(0, 97, 0);
+
+header {
+  min-height: 7vh;
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: $paragraph-bg;
+  color: white;
+}
