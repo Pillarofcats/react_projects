@@ -7,7 +7,7 @@ session-break-clock/node_modules
 react-psql-register-login/*/node_modules
 
 # production
-client/build
+react-psql-register-login/client/build
 
 #env
 react-psql-register-login/server/*.env
