@@ -4,9 +4,10 @@ drum-machine/node_modules
 markdown-previewer/node_modules
 quote-app/node_modules
 session-break-clock/node_modules
+react-psql-register-login/*/node_modules
 
 # production
-/build
+client/build
 
 #env
-.env
+react-psql-register-login/server/*.env
